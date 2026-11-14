@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#0f172a" />
+  
+  <!-- Top Browser Bar -->
+  <rect x="0" y="0" width="1200" height="48" fill="#1e293b" />
+  <circle cx="28" cy="24" r="7" fill="#ef4444" />
+  <circle cx="52" cy="24" r="7" fill="#f59e0b" />
+  <circle cx="76" cy="24" r="7" fill="#22c55e" />
+  <rect x="120" y="10" width="960" height="28" rx="6" fill="#0f172a" />
+  <text x="140" y="29" fill="#94a3b8" font-size="13">https://checkout.streamvault-ultra.example/plan/confirm</text>
+
+  <!-- Main Checkout Container -->
+  <rect x="60" y="76" width="1080" height="690" rx="16" fill="#ffffff" />
+
+  <!-- Left Column: Plan & Sneaky Add-ons -->
+  <text x="105" y="135" fill="#0f172a" font-size="28" font-weight="800">StreamVault Ultra 4K</text>
+  <rect x="418" y="113" width="138" height="28" rx="14" fill="#dcfce7" />
+  <text x="434" y="132" fill="#15803d" font-size="13" font-weight="700">PROMO: $9.99/mo</text>
+  <text x="105" y="165" fill="#475569" font-size="15">Complete your activation below to unlock instant streaming.</text>
+
+  <!-- Fake Urgency Banner -->
+  <rect x="105" y="188" width="560" height="44" rx="8" fill="#fef2f2" stroke="#fecaca" />
+  <text x="125" y="215" fill="#b91c1c" font-size="14" font-weight="700">🔥 FLASH OFFER EXPIRES IN 01:48 — 43 other viewers are claiming this spot!</text>
+
+  <!-- Sneak Into Basket Add-on 1 -->
+  <rect x="105" y="255" width="560" height="82" rx="10" fill="#f8fafc" stroke="#cbd5e1" />
+  <rect x="125" y="278" width="22" height="22" rx="4" fill="#2563eb" />
+  <path d="M130 289 L134 294 L143 283" stroke="#ffffff" stroke-width="2.5" fill="none" />
+  <text x="162" y="286" fill="#0f172a" font-size="15" font-weight="700">Priority StreamBuffer™ Protection (+$6.99/mo)</text>
+  <text x="162" y="310" fill="#64748b" font-size="13">Pre-selected to prevent buffering during peak evening hours.</text>
+
+  <!-- Sneak Into Basket Add-on 2 -->
+  <rect x="105" y="352" width="560" height="82" rx="10" fill="#f8fafc" stroke="#cbd5e1" />
+  <rect x="125" y="375" width="22" height="22" rx="4" fill="#2563eb" />
+  <path d="M130 386 L134 391 L143 380" stroke="#ffffff" stroke-width="2.5" fill="none" />
+  <text x="162" y="383" fill="#0f172a" font-size="15" font-weight="700">Extended Cloud DVR + Sports Pass Trial (+$14.99/mo)</text>
+  <text x="162" y="407" fill="#64748b" font-size="13">Automatically converts to paid monthly add-on after 7 days unless cancelled by phone.</text>
+
+  <!-- Primary CTA -->
+  <rect x="105" y="465" width="560" height="58" rx="10" fill="#2563eb" />
+  <text x="245" y="500" fill="#ffffff" font-size="18" font-weight="700">Start My $9.99 Membership Now →</text>
+
+  <!-- Confirmshaming Link -->
+  <text x="135" y="555" fill="#94a3b8" font-size="13" text-decoration="underline">No thanks, I prefer watching blurry low-resolution videos with constant ads.</text>
+
+  <!-- Micro-print Forced Continuity -->
+  <text x="105" y="615" fill="#cbd5e1" font-size="10">By clicking Start, you agree to an annual commitment billed at $29.99/mo after month 1. Cancellation requires</text>
+  <text x="105" y="630" fill="#cbd5e1" font-size="10">written notice sent via certified mail 30 days prior to renewal date. Early termination fee of $120 applies.</text>
+
+  <!-- Right Column: Drip Pricing Summary Box -->
+  <rect x="705" y="115" width="390" height="540" rx="14" fill="#f1f5f9" stroke="#e2e8f0" />
+  <text x="735" y="160" fill="#0f172a" font-size="20" font-weight="800">Order Summary</text>
+  
+  <text x="735" y="210" fill="#334155" font-size="15">StreamVault Base Promo</text>
+  <text x="1015" y="210" fill="#0f172a" font-size="15" font-weight="700">$9.99</text>
+
+  <text x="735" y="250" fill="#334155" font-size="15">StreamBuffer™ Add-on</text>
+  <text x="1015" y="250" fill="#0f172a" font-size="15" font-weight="700">$6.99</text>
+
+  <text x="735" y="290" fill="#334155" font-size="15">Sports Pass Add-on</text>
+  <text x="1007" y="290" fill="#0f172a" font-size="15" font-weight="700">$14.99</text>
+
+  <!-- Hidden Drip Fees -->
+  <rect x="725" y="315" width="350" height="105" rx="8" fill="#fff7ed" stroke="#fed7aa" />
+  <text x="738" y="342" fill="#9a3412" font-size="14" font-weight="600">Platform Infrastructure Fee</text>
+  <text x="1015" y="342" fill="#9a3412" font-size="14" font-weight="700">$8.50</text>
+  <text x="738" y="372" fill="#9a3412" font-size="14" font-weight="600">Digital Licensing Surcharge</text>
+  <text x="1015" y="372" fill="#9a3412" font-size="14" font-weight="700">$5.49</text>
+  <text x="738" y="402" fill="#9a3412" font-size="14" font-weight="600">Mandatory Setup Processing</text>
+  <text x="1015" y="402" fill="#9a3412" font-size="14" font-weight="700">$4.00</text>
+
+  <line x1="735" y1="448" x2="1065" y2="448" stroke="#cbd5e1" stroke-width="2" />
+  <text x="735" y="488" fill="#0f172a" font-size="18" font-weight="800">Due Today</text>
+  <text x="992" y="488" fill="#dc2626" font-size="22" font-weight="800">$49.96</text>
+  <text x="735" y="518" fill="#64748b" font-size="12">Advertised at $9.99/mo (400% price jump at checkout)</text>
+</svg>
