@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="55%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#fb923c" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Base Dark Background + Subtle Grid -->
+  <rect width="1200" height="800" fill="url(#bgGrad)" />
+  <rect width="1200" height="800" fill="url(#grid)" opacity="0.55" />
+
+  <!-- Glow Accents -->
+  <circle cx="240" cy="220" r="240" fill="#f43f5e" opacity="0.12" />
+  <circle cx="960" cy="600" r="260" fill="#38bdf8" opacity="0.09" />
+
+  <!-- Top Pill Badge -->
+  <rect x="80" y="75" width="350" height="38" rx="19" fill="#f43f5e" fill-opacity="0.15" stroke="#f43f5e" stroke-opacity="0.45" />
+  <text x="104" y="99" fill="#fda4af" font-size="14" font-weight="800" letter-spacing="1.2">NORCAL HACKS 27 • AI FORENSICS</text>
+
+  <!-- Main Title -->
+  <text x="80" y="195" fill="#ffffff" font-size="68" font-weight="900" letter-spacing="-1.5">DarkPattern</text>
+  <text x="488" y="195" fill="url(#accentGrad)" font-size="68" font-weight="900" letter-spacing="-1.5">X-Ray</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="248" fill="#cbd5e1" font-size="23" font-weight="500">Expose hidden subscription traps, drip pricing, and deceptive UI</text>
+  <text x="80" y="280" fill="#94a3b8" font-size="21">with Multimodal Vision bounding boxes + 1-click legal notices.</text>
+
+  <!-- Left Simulated X-Ray Scanner Card -->
+  <rect x="80" y="330" width="580" height="390" rx="20" fill="#0f172a" stroke="#334155" stroke-width="2" />
+  <rect x="80" y="330" width="580" height="44" rx="20" fill="#1e293b" />
+  <circle cx="110" cy="352" r="6" fill="#ef4444" />
+  <circle cx="130" cy="352" r="6" fill="#f59e0b" />
+  <circle cx="150" cy="352" r="6" fill="#22c55e" />
+  <text x="180" y="357" fill="#94a3b8" font-size="13" font-family="monospace">X-RAY OVERLAY • 4 TRAPS GROUNDED</text>
+
+  <!-- Simulated UI Wireframe inside Scanner -->
+  <rect x="115" y="400" width="510" height="62" rx="10" fill="#1e293b" stroke="#f43f5e" stroke-width="2.5" />
+  <rect x="115" y="382" width="175" height="22" rx="4" fill="#e11d48" />
+  <text x="124" y="397" fill="#ffffff" font-size="11" font-weight="800">#1 SNEAK INTO BASKET</text>
+  <rect x="135" y="421" width="20" height="20" rx="4" fill="#3b82f6" />
+  <text x="170" y="436" fill="#f8fafc" font-size="15" font-weight="700">Pre-checked Add-On (+$14.99/mo)</text>
+
+  <rect x="115" y="492" width="510" height="62" rx="10" fill="#1e293b" stroke="#f97316" stroke-width="2.5" />
+  <rect x="115" y="474" width="142" height="22" rx="4" fill="#ea580c" />
+  <text x="124" y="489" fill="#ffffff" font-size="11" font-weight="800">#2 DRIP PRICING</text>
+  <text x="135" y="528" fill="#fdba74" font-size="15" font-weight="700">Hidden Platform + Setup Fees (+$27.99)</text>
+
+  <rect x="115" y="584" width="510" height="62" rx="10" fill="#1e293b" stroke="#eab308" stroke-width="2.5" />
+  <rect x="115" y="566" width="155" height="22" rx="4" fill="#ca8a04" />
+  <text x="124" y="581" fill="#0f172a" font-size="11" font-weight="800">#3 ROACH MOTEL</text>
+  <text x="135" y="620" fill="#fef08a" font-size="15" font-weight="700">Phone-Only Cancellation Window (Mon-Fri)</text>
+
+  <!-- Right Forensics Score & Action Cards -->
+  <rect x="695" y="330" width="425" height="182" rx="20" fill="#0f172a" stroke="#334155" stroke-width="2" />
+  <text x="725" y="370" fill="#94a3b8" font-size="13" font-weight="700" letter-spacing="1">MANIPULATION SEVERITY INDEX</text>
+  <text x="725" y="428" fill="#f43f5e" font-size="48" font-weight="900">92 / 100</text>
+  <rect x="935" y="392" width="150" height="34" rx="17" fill="#f43f5e" fill-opacity="0.2" stroke="#f43f5e" />
+  <text x="955" y="414" fill="#fda4af" font-size="13" font-weight="800">PREDATORY UI</text>
+  <text x="725" y="476" fill="#cbd5e1" font-size="16" font-weight="600">Advertised: $9.99  →  True Cost: $49.96</text>
+
+  <rect x="695" y="538" width="425" height="182" rx="20" fill="#0f172a" stroke="#10b981" stroke-opacity="0.5" stroke-width="2" />
+  <text x="725" y="578" fill="#34d399" font-size="13" font-weight="800" letter-spacing="1">INSTANT CONSUMER DEFENSE</text>
+  <text x="725" y="618" fill="#ffffff" font-size="22" font-weight="800">1-Click Legal Cancellation</text>
+  <text x="725" y="650" fill="#94a3b8" font-size="15">Auto-drafts FTC ROSCA + EU DSA Art. 25</text>
+  <text x="725" y="676" fill="#94a3b8" font-size="15">dispute demand letter + JSON audit log.</text>
+</svg>
